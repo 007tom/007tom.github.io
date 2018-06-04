@@ -7,6 +7,7 @@
 #+OPTIONS: html-preamble:t html-scripts:t html-style:t
 #+OPTIONS: html5-fancy:nil tex:t
 #+HTML_DOCTYPE: xhtml-strict
+#+TITLE: plan
 #+HTML_CONTAINER: div
 #+DESCRIPTION:
 #+KEYWORDS:
