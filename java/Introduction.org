@@ -1,0 +1,27 @@
+#+OPTIONS: html-link-use-abs-url:nil html-postamble:auto
+#+OPTIONS: html-preamble:t html-scripts:t html-style:t
+#+OPTIONS: toc:nil creator:t
+#+OPTIONS: html5-fancy:nil tex:t
+#+HTML_DOCTYPE: xhtml-strict
+#+HTML_CONTAINER: div
+#+TITLE: Introduction
+#+DESCRIPTION:
+#+KEYWORDS:
+#+HTML_LINK_HOME:
+#+HTML_LINK_UP:
+#+HTML_MATHJAX:
+#+HTML_HEAD:
+#+HTML_HEAD_EXTRA:
+#+SUBTITLE:Outline of Java Tutorial, also other Features of Programming Languages.
+#+INFOJS_OPT:
+#+CREATOR: <a href="https://www.gnu.org/software/emacs/">Emacs</a> 25.2.2 (<a href="https://orgmode.org">Org</a> mode 9.1.13)
+#+LATEX_HEADER:
+- *WebSite*: [[https://introcs.cs.princeton.edu/java/home][Computer Science: An interdisciplinary Approach]]
++ *Chinese version*: [[https://www.runoob.com/java/java-tutorial.html][Java-Runoob.com]]
+
+* TODO [[file:Chapter1.html][Elements of Programming]]
+* WAITING [[file:Chapter2.html][Functions]]
+* WAITING [[file:Chapter3.html][Object-Oriented Programming]]
+* WAITING [[file:Chapter4.html][Algorithms and Data Structures]]
+
+- *Commended IDE*: [[https:www.eclipse.org/downloads][Eclipse]]

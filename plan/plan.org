@@ -1,5 +1,5 @@
 #+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline
-#+OPTIONS: author:t broken-links:nil c:nil creator:nil
+#+OPTIONS: author:t broken-links:nil c:nil creator:t
 #+OPTIONS: d:(not "LOGBOOK") date:t e:t email:nil f:t inline:t num:t
 #+OPTIONS: p:nil pri:nil prop:nil stat:t tags:t tasks:t tex:t
 #+OPTIONS: timestamp:t title:t toc:t todo:t |:t
@@ -9,9 +9,9 @@
 #+HTML_DOCTYPE: xhtml-strict
 #+TITLE: plan
 #+HTML_CONTAINER: div
-#+DESCRIPTION:
-#+KEYWORDS:
-#+HTML_LINK_HOME:
+#+DESCRIPTION:A cookbook of Learning to program by yourself !
+#+KEYWORDS:PROGRAMMING
+#+HTML_LINK_HOME:[[file:~/WebSite/007tom.github.io/homepage.html][Homepage]]
 #+HTML_LINK_UP:
 #+HTML_MATHJAX:
 #+HTML_HEAD:
@@ -20,7 +20,6 @@
 #+INFOJS_OPT:
 #+CREATOR: <a href="https://www.gnu.org/software/emacs/">Emacs</a> 25.2.2 (<a href="https://orgmode.org">Org</a> mode 9.1.13)
 #+LATEX_HEADER:
-
 * Data Structures and Algorithms
 ** Algorithms, 4th Edition
 [[file:0.jpg]]

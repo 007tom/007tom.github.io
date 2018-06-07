@@ -1,0 +1,53 @@
+#+OPTIONS: html-link-use-abs-url:nil html-postamble:auto
+#+OPTIONS: html-preamble:t html-scripts:t html-style:t
+#+OPTIONS: toc:t creator:t
+#+OPTIONS: html5-fancy:nil tex:t
+#+HTML_DOCTYPE: xhtml-strict
+#+HTML_CONTAINER: div
+#+TITLE: Elements of Programming
+#+DESCRIPTION:
+#+KEYWORDS:
+#+HTML_LINK_HOME:
+#+HTML_LINK_UP:
+#+HTML_MATHJAX:
+#+HTML_HEAD:
+#+HTML_HEAD_EXTRA:
+#+SUBTITLE:
+#+INFOJS_OPT:
+#+CREATOR: <a href="https://www.gnu.org/software/emacs/">Emacs</a> 25.2.2 (<a href="https://orgmode.org">Org</a> mode 9.1.13)
+#+LATEX_HEADER:
+
+* HelloWorld
+** Creat
+#+NAME: HelloWorld.java
+#+BEGIN_SRC java
+    public class Helloworld {
+        public static void main(String[] args) {
+            System.out.println("Hello, World!");
+        }
+    }
+#+END_SRC
+** Compile
+#+BEGIN_SRC sh
+    $ javac Helloworld.java
+#+END_SRC
+** Execute
+#+BEGIN_SRC sh
+    $ java HelloWorld
+#+END_SRC
+* Errors
+- *Compile-time errors* :: These errors are caught by the system when we compile the program, because they prevent the compiler from doing the translation (so it issues an error message that tries to explain why).
+- Run-time errors :: These errors are caught by the system when we execute the program, because the program tries to perform an invalid operation (e.g., division by zero).
+- *Logical errors* :: These errors are (hopefully) caught by the programmer when we execute the program and it produces the wrong answer. Bugs are the bane of a programmer's existence. They can be subtle and very hard to find.
+* Input and Output
+* Built-in types of data
+| type    | set of values           | common operators | sample literal values      |
+|---------+-------------------------+------------------+----------------------------|
+| int     | integers                | + - * / %        | 123                        |
+| double  | floating-point numbers  | + - * /          | 3.14                       |
+| boolean | boolean values          | (and, or, not)   | true false                 |
+| char    | characters              |                  | 'H' '1'        '%' '\n'    |
+| String  | sequences of characters | +                | "Hello"              "2.5" |
+
+** library methods and APIs
+** type conversion
