@@ -4,6 +4,7 @@
 #+OPTIONS: html5-fancy:nil tex:t
 #+HTML_DOCTYPE: xhtml-strict
 #+HTML_CONTAINER: div
+#+SETUPFILE: theme-bigblow.setup
 #+TITLE: Elements of Programming
 #+DESCRIPTION:
 #+KEYWORDS:
