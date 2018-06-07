@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2018-06-07 四 22:24 -->
+<!-- 2018-06-07 四 22:38 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Elements of Programming</title>
@@ -267,34 +267,34 @@ for the JavaScript code in this tag.
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orgbae3bd5">1. HelloWorld</a>
+<li><a href="#orgf60e4c0">1. HelloWorld</a>
 <ul>
-<li><a href="#org3c6e3f2">1.1. Creat</a></li>
-<li><a href="#orgd369002">1.2. Compile</a></li>
-<li><a href="#org9b275eb">1.3. Execute</a></li>
+<li><a href="#org37a245c">1.1. Creat</a></li>
+<li><a href="#org8cfee49">1.2. Compile</a></li>
+<li><a href="#org2695cf8">1.3. Execute</a></li>
 </ul>
 </li>
-<li><a href="#orgad60d9a">2. Errors</a></li>
-<li><a href="#orgce11e1c">3. Input and Output</a></li>
-<li><a href="#org76708f6">4. Built-in types of data</a>
+<li><a href="#org15a40ad">2. Errors</a></li>
+<li><a href="#orge2a3749">3. Input and Output</a></li>
+<li><a href="#orgf7fc832">4. Built-in types of data</a>
 <ul>
-<li><a href="#orgb5605ad">4.1. library methods and APIs</a></li>
-<li><a href="#org30483f7">4.2. type conversion</a></li>
+<li><a href="#org1261dc2">4.1. library methods and APIs</a></li>
+<li><a href="#org08fe80f">4.2. type conversion</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orgbae3bd5" class="outline-2">
-<h2 id="orgbae3bd5"><span class="section-number-2">1</span> HelloWorld</h2>
+<div id="outline-container-orgf60e4c0" class="outline-2">
+<h2 id="orgf60e4c0"><span class="section-number-2">1</span> HelloWorld</h2>
 <div class="outline-text-2" id="text-1">
 </div>
-<div id="outline-container-org3c6e3f2" class="outline-3">
-<h3 id="org3c6e3f2"><span class="section-number-3">1.1</span> Creat</h3>
+<div id="outline-container-org37a245c" class="outline-3">
+<h3 id="org37a245c"><span class="section-number-3">1.1</span> Creat</h3>
 <div class="outline-text-3" id="text-1-1">
 <div class="org-src-container">
-<pre class="src src-java" id="orgb0abcfe"><span style="color: #b9ca4a;">public</span> <span style="color: #b9ca4a;">class</span> <span style="color: #7aa6da;">Helloworld</span> <span style="color: #eaeaea;">{</span>
+<pre class="src src-java" id="org0d1e02f"><span style="color: #b9ca4a;">public</span> <span style="color: #b9ca4a;">class</span> <span style="color: #7aa6da;">Helloworld</span> <span style="color: #eaeaea;">{</span>
     <span style="color: #b9ca4a;">public</span> <span style="color: #b9ca4a;">static</span> <span style="color: #7aa6da;">void</span> <span style="color: #e78c45;">main</span><span style="color: #70c0b1;">(</span><span style="color: #7aa6da;">String</span><span style="color: #e7c547;">[]</span> <span style="color: #e7c547;">args</span><span style="color: #70c0b1;">)</span> <span style="color: #70c0b1;">{</span>
         System.out.println<span style="color: #e7c547;">(</span><span style="color: #70c0b1;">"Hello, World!"</span><span style="color: #e7c547;">)</span>;
     <span style="color: #70c0b1;">}</span>
@@ -303,8 +303,8 @@ for the JavaScript code in this tag.
 </div>
 </div>
 </div>
-<div id="outline-container-orgd369002" class="outline-3">
-<h3 id="orgd369002"><span class="section-number-3">1.2</span> Compile</h3>
+<div id="outline-container-org8cfee49" class="outline-3">
+<h3 id="org8cfee49"><span class="section-number-3">1.2</span> Compile</h3>
 <div class="outline-text-3" id="text-1-2">
 <div class="org-src-container">
 <pre class="src src-sh">$ javac Helloworld.java
@@ -312,8 +312,8 @@ for the JavaScript code in this tag.
 </div>
 </div>
 </div>
-<div id="outline-container-org9b275eb" class="outline-3">
-<h3 id="org9b275eb"><span class="section-number-3">1.3</span> Execute</h3>
+<div id="outline-container-org2695cf8" class="outline-3">
+<h3 id="org2695cf8"><span class="section-number-3">1.3</span> Execute</h3>
 <div class="outline-text-3" id="text-1-3">
 <div class="org-src-container">
 <pre class="src src-sh">$ java HelloWorld
@@ -322,8 +322,8 @@ for the JavaScript code in this tag.
 </div>
 </div>
 </div>
-<div id="outline-container-orgad60d9a" class="outline-2">
-<h2 id="orgad60d9a"><span class="section-number-2">2</span> Errors</h2>
+<div id="outline-container-org15a40ad" class="outline-2">
+<h2 id="org15a40ad"><span class="section-number-2">2</span> Errors</h2>
 <div class="outline-text-2" id="text-2">
 <dl class="org-dl">
 <dt><b>Compile-time errors</b></dt><dd>These errors are caught by the system when we compile the program, because they prevent the compiler from doing the translation (so it issues an error message that tries to explain why).</dd>
@@ -332,11 +332,11 @@ for the JavaScript code in this tag.
 </dl>
 </div>
 </div>
-<div id="outline-container-orgce11e1c" class="outline-2">
-<h2 id="orgce11e1c"><span class="section-number-2">3</span> Input and Output</h2>
+<div id="outline-container-orge2a3749" class="outline-2">
+<h2 id="orge2a3749"><span class="section-number-2">3</span> Input and Output</h2>
 </div>
-<div id="outline-container-org76708f6" class="outline-2">
-<h2 id="org76708f6"><span class="section-number-2">4</span> Built-in types of data</h2>
+<div id="outline-container-orgf7fc832" class="outline-2">
+<h2 id="orgf7fc832"><span class="section-number-2">4</span> Built-in types of data</h2>
 <div class="outline-text-2" id="text-4">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
@@ -397,17 +397,17 @@ for the JavaScript code in this tag.
 </table>
 </div>
 
-<div id="outline-container-orgb5605ad" class="outline-3">
-<h3 id="orgb5605ad"><span class="section-number-3">4.1</span> library methods and APIs</h3>
+<div id="outline-container-org1261dc2" class="outline-3">
+<h3 id="org1261dc2"><span class="section-number-3">4.1</span> library methods and APIs</h3>
 </div>
-<div id="outline-container-org30483f7" class="outline-3">
-<h3 id="org30483f7"><span class="section-number-3">4.2</span> type conversion</h3>
+<div id="outline-container-org08fe80f" class="outline-3">
+<h3 id="org08fe80f"><span class="section-number-3">4.2</span> type conversion</h3>
 </div>
 </div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Rookie</p>
-<p class="date">Created: 2018-06-07 四 22:24</p>
+<p class="date">Created: 2018-06-07 四 22:38</p>
 <p class="creator"><a href="https://www.gnu.org/software/emacs/">Emacs</a> 25.2.2 (<a href="https://orgmode.org">Org</a> mode 9.1.13)</p>
 <p class="validation"></p>
 </div>
