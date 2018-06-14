@@ -1,0 +1,32 @@
+#+OPTIONS: html-link-use-abs-url:nil html-postamble:auto
+#+OPTIONS: html-preamble:t html-scripts:t html-style:t
+#+OPTIONS: creator:t
+#+OPTIONS: html5-fancy:nil tex:t
+#+HTML_DOCTYPE: xhtml-strict
+#+HTML_CONTAINER: div
+#+SETUPFILE: theme-bigblow.setup
+#+TITLE:TeX
+#+DESCRIPTION:
+#+KEYWORDS:
+#+HTML_LINK_HOME:
+#+HTML_LINK_UP:
+#+HTML_MATHJAX:
+#+HTML_HEAD:
+#+HTML_HEAD_EXTRA:
+#+SUBTITLE:
+#+INFOJS_OPT:
+#+CREATOR: <a href="https://www.gnu.org/software/emacs/">Emacs</a> 26.1 (<a href="https://orgmode.org">Org</a> mode 9.1.13)
+#+LATEX_HEADER:
+
+* $\TeX$
+** TODO 阅读 [[http://www.ctex.org/documents/shredder/tex_frame.html][王垠的博客]]
+* $\LaTeX$
+- 推荐 [[https://www.tug.org/texlive/][$\TeX$ Live]]
+*** 最新版本 $\TeX$ Live 2018
+    [[https:www.tug.org/texlive/doc/texlive-zh-cn/texlive-zh-cn.pdf][$\TeX$ Live指南——2018]]
+*** 资源推荐
+    [[http:www.latexstudio.net][$\LaTeX$ 开源小站]]
+* $\TeX macs$ ——数学神器
+- [[http://www.texmacs.org/tmweb/home/welcome.en.html][$\TeX$ macs官方网站]]
+[[file:tmwin1079b.png]]
+- *[[http://www.yinwang.org/blog-cn/2012/09/18/texmacs][王垠的博客]]*
